@@ -1,0 +1,42 @@
+module.exports = [
+  {
+    first_name: "Marcus",
+    last_name: "Wallace",
+    email: "marcus@example.com",
+    password: "password123",
+    country: "Scotland",
+    favourite_team: 1,
+  },
+  {
+    first_name: "Ava",
+    last_name: "Thomson",
+    email: "ava.t@example.com",
+    password: "ava12345",
+    country: "Scotland",
+    favourite_team: 2,
+  },
+  {
+    first_name: "Ewan",
+    last_name: "Graham",
+    email: "ewan.g@example.com",
+    password: "graham_pw",
+    country: "Scotland",
+    favourite_team: null,
+  },
+  {
+    first_name: "Lily",
+    last_name: "Murray",
+    email: "lily.m@example.com",
+    password: "lilyrocks",
+    country: "England",
+    favourite_team: 4,
+  },
+  {
+    first_name: "Jamie",
+    last_name: "Douglas",
+    email: "jamie.d@example.com",
+    password: "jdsecure",
+    country: "Scotland",
+    favourite_team: 2,
+  },
+];
