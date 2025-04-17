@@ -1,0 +1,26 @@
+{
+  "name": "tartan_tactics_be",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node listen.js",
+    "seed-prod": "NODE_ENV=production npm run seed",
+    "setup-dbs": "psql -f ./db/setup.sql",
+    "seed": "node ./db/seeds/run-seed.js",
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "pg": "^8.14.1"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0",
+    "nodemon": "^3.1.9",
+    "supertest": "^7.1.0"
+  }
+}
